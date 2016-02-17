@@ -1,6 +1,6 @@
 # Handlebars Morning Challenge
 
-This is a morning challenge that will help you learn the basics of Handlebars.js (a great templating engine with lots of in-built functionality).
+This is a morning challenge that will help you learn the basics of [Handlebars.js](http://handlebarsjs.com/) (a great templating engine with lots of in-built functionality).
 
 **Templating Engine ?**
 
