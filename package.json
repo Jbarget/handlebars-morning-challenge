@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Jbarget/handlebars-morning-challenge#readme",
   "dependencies": {
     "tape": "^4.4.0"
+  },
+  "devDependencies": {
+    "handlebars": "^4.0.5"
   }
 }
