@@ -1,0 +1,23 @@
+{
+  "name": "handlebars-morning-challenge",
+  "version": "1.0.0",
+  "description": "This is a morning challenge that will help you learn the basics of handlebars.js (a great templating engine with lots of inbuilt functionality)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tape ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jbarget/handlebars-morning-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jbarget/handlebars-morning-challenge/issues"
+  },
+  "homepage": "https://github.com/Jbarget/handlebars-morning-challenge#readme",
+  "dependencies": {
+    "tape": "^4.4.0",
+    "handlebars": "^4.0.5"
+  }
+}
