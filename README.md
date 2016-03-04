@@ -8,7 +8,7 @@ Lets say you've got an app that sends your users an email with lots of informati
 
 A *templating engine* can come to the rescue! It allows you to insert variables into the html output by compiling the information that has been inputed and the original html. Google away and you'll see what I mean!
 
-**The aim of the challenge is to make the tests pass by adding your code where appropriate.**
+**The aim of the challenge is to make the tests pass by adding your code where appropriate.** (you only need to edit code in message.html)
 
 Start by cloning this repository (and starring it if you fancy).
 
