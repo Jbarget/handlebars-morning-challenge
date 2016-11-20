@@ -18,9 +18,6 @@ Good Luck! And remember Google is your best friend!
 
 <br>
 <br>
-<br>
-<br>
-<br>
 
 **NB.** I know the code isn't very *dry* but this is just for demonstration purposes!
 
