@@ -23,7 +23,8 @@ function listOutPeople(){
 
 function getInContact(){
   var obj = {
-    email: "hello@foundersandcoders.com"
+    email: "hello@foundersandcoders.com",
+    number: '02035832442'
   }
   var html = template(obj);
   return html;
