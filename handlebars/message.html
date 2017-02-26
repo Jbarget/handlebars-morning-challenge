@@ -7,14 +7,21 @@
   <body>
 <!-- Your Handlebars code below -->
 <!-- Test 1: print out a title and post to make the test pass (in the format Title: Post) -->
-
+  {{#if title}}
+    {{#if post}}
+      <h1>{{title}}: {{post}}<h1>
+    {{/if}}
+  {{/if}}
 <!-- Test 2: print out an array of our favourite people at FAC with <li> tags for each one-->
-    Our Favourite FAC people:
-    <ul></ul>
-
+  {{#if people}}Our Favourite FAC people:
+    <ul>
+      {{#each people}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  {{/if}}
 <!-- Test 3: print out hello@foundersandcoders.com email and formatted telephone number to fit the test -->
 <!-- nb. add a custom helper to format the phone number -->
-    Please email or call if you want to get in touch!
-
+    Please {{#if email}}email {{email}}{{/if}}{{#if number}} or call {{formatPhoneNumber number}}{{/if}} if you want to get in touch!
   </body>
 </html>
