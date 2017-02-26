@@ -1,7 +1,7 @@
 var Handlebars = require("handlebars");
 var fs = require('fs');
 
-var source = fs.readFileSync(__dirname + "/message.html")
+var source = fs.readFileSync(__dirname + "/message.hbs")
 var template = Handlebars.compile(source.toString());
 
 Handlebars.registerHelper("formatPhoneNumber", function(phoneNumber) {
