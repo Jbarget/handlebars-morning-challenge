@@ -22,6 +22,7 @@ Good Luck! And remember Google is your best friend!
 **NB.** I know the code isn't very *dry* but this is just for demonstration purposes!
 
 **Stretch goal:** If you finish the original 3 tests you might have noticed that with each of the tests Handlebars still compiles values that are undefined.
+If you havent already, add a `console.log(html)` between line 20/21 in `handlebars.js`.
 
 eg. Test 2 still leaves a gap for the "title" and "post" in test 1 and the email in test 3.
 
