@@ -2,17 +2,24 @@
 
 This is a morning challenge that will help you learn the basics of [Handlebars.js](http://handlebarsjs.com/) (a great templating engine with lots of in-built functionality).
 
+### Getting Started
+
+1. `git clone https://github.com/Jbarget/handlebars-morning-challenge.git`
+2. `cd handlebars-morning-challenge`
+3. `npm i`
+4. `npm test`
+5. 🌟🌟 and star the repo if you fancy 🌟🌟
+
+### Setting the Scene
 **Templating Engine ?**
 
 Lets say you've got an app that sends your users an email with lots of information that the user has inputed. Eg. an appointment booking form (time, date of appointment, name, location, all that stuff...)
 
 A *templating engine* can come to the rescue! It allows you to insert variables into the html output by compiling the information that has been inputed and the original html. Google away and you'll see what I mean!
 
-**The aim of the challenge is to make the tests pass by adding your code where appropriate.** (you will mainly need to edit code in `handlebars/message.hbs` and in `handlebars/handlebars.js` for registering the helper in test 3). It might help to use `console.log` to show you the output in your terminal.
+### Instructions
 
-Start by cloning this repository (🌟🌟 and starring it if you fancy 🌟🌟).
-
-To run the tests you'll need to install the dependencies using the command line with ```npm i``` and then run ```npm test```.
+**The aim of the challenge is to make the tests pass by adding your code where appropriate.** (you will mainly need to edit code in `handlebars/message.hbs` and for registering the helper in test 3 in `handlebars/handlebars.js`). It might help to use `console.log` to show you the output in your terminal.
 
 Good Luck! And remember Google is your best friend!
 
