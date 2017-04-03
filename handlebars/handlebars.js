@@ -10,29 +10,29 @@ Handlebars.registerHelper("formatPhoneNumber", function(phoneNumber) {
 });
 
 function sayHello(){
-  var obj = {
+  var context = {
     title:"Hello World",
     post: "A bit of info about FAC!"
   }
-  var html = template(obj);
-  console.log(html);
+
+  var html = template(context);
   return html;
 }
 
 function listOutPeople(){
-  var obj = {
+  var context = {
     people: ["Dan Sofer", "Ines Teles", "Nelson Correira"]
   }
-  var html = template(obj);
+  var html = template(context);
   return html;
 }
 
 function getInContact(){
-  var obj = {
+  var context = {
     email: "hello@foundersandcoders.com",
     number: '02035832442'
   }
-  var html = template(obj);
+  var html = template(context);
   return html;
 }
 
