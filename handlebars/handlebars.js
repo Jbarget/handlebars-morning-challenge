@@ -1,8 +1,11 @@
 var Handlebars = require("handlebars");
 var fs = require('fs');
 
-var source = fs.readFileSync(__dirname + "/message.hbs")
-var template = Handlebars.compile(source.toString());
+var source = fs.readFileSync(__dirname + "/message.hbs") // need to read the template from the file system
+var template = Handlebars.compile(source.toString()); // need to call Handlebars.compile with the template file
+
+// in each of the functions below you will see `var html = template(context)`
+// This merges the template and the relevant data together to produce the html
 
 Handlebars.registerHelper("formatPhoneNumber", function(phoneNumber) {
   phoneNumber = phoneNumber.toString();
